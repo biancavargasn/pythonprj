@@ -40,3 +40,7 @@ servicos = {
 for PORTA in portas_alvo:
 	nome = servicos.get(PORTA, 'desconhecido' )
 	print(f'Porta {PORTA}: Servico {nome} ')
+
+
+if __name__ == '__main__':
+	main()
